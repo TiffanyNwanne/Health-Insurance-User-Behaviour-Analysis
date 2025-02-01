@@ -59,7 +59,7 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 **Checking Unique Regions**
 
-[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Checking%20Unique%20Regions.JPG))[(https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Checking%20Unique%20Regions.JPG)
+[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Checking%20Unique%20Regions.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Checking%20Unique%20Regions.JPG)
 
 **📝 Findings:** The dataset contains both states and cities (HRRs), making it difficult to extract state-level information.
 
