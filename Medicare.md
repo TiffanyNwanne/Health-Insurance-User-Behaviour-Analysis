@@ -109,15 +109,15 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Dual-Eligible%20Beneficiaries%20(Medicare%20%2B%20Medicaid).JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Dual-Eligible%20Beneficiaries%20(Medicare%20%2B%20Medicaid).JPG)
 
-**7️⃣Gender and Age Distribution**
+**7️⃣ Gender and Age Distribution**
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Gender%20and%20Age%20Distribution.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Gender%20and%20Age%20Distribution.JPG)
 
-**8️⃣Top 5 States with Highest Diabetes Hospitalization Rates**
+**8️⃣ Top 5 States with Highest Diabetes Hospitalization Rates**
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Diabetes%20Hospitalization%20Rates.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Diabetes%20Hospitalization%20Rates.JPG)
 
-**9️⃣Top 5 States with Highest Dmergency Department (BD) Usage**
+**9️⃣ Top 5 States with Highest Dmergency Department (BD) Usage**
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Dmergency%20Department%20(BD)%20Usage.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Dmergency%20Department%20(BD)%20Usage.JPG)
 
@@ -194,7 +194,7 @@ This dashboard provides a comprehensive overview of how Medicare beneficiaries u
 
 - A declining dual eligibility rate suggests that fewer Medicare beneficiaries are qualifying for Medicaid, which could be due to income shifts or policy changes affecting Medicaid eligibility.
 
-2️⃣ Inpatient vs. Outpatient Spending
+**2️⃣ Inpatient vs. Outpatient Spending**
 
 - Top KPI Tile: Shows the breakdown of Medicare expenditures:
 - 97% spent on inpatient care
@@ -205,9 +205,11 @@ This dashboard provides a comprehensive overview of how Medicare beneficiaries u
 - Inpatient care dominates Medicare spending, accounting for the majority of costs.
 - Outpatient spending is minimal, possibly due to lower costs per service and fewer hospitalizations as medical practices shift towards ambulatory and home care services.
 
-3️⃣ Total Medicare Beneficiaries
+**3️⃣ Total Medicare Beneficiaries**
 
-Top KPI Tile: Highlights the total number of Medicare beneficiaries (88 million).
+**Top KPI Tile:**
+
+Highlights the total number of Medicare beneficiaries (88 million).
 
 **Insight:**
 
@@ -229,15 +231,17 @@ This dashboard provides insights into the demographic distribution of Medicare b
 
 **1️⃣ Racial Demographics**
 
-Top KPI Tile: Shows that White beneficiaries make up 79% of the Medicare population.
+**Top KPI Tile:**
 
-Bar Chart: Displays racial/ethnic trends from 2014 to 2022, showing:
+Shows that White beneficiaries make up 79% of the Medicare population.
 
-Black beneficiaries account for 10% of enrollees.
+**Bar Chart:**
 
-Hispanic beneficiaries make up 6%, but their numbers are rising.
-
-Other racial groups represent 5% of Medicare enrollees.
+- Black beneficiaries account for 10% of enrollees.
+  
+- Hispanic beneficiaries make up 6%, but their numbers are rising.
+  
+- Other racial groups represent 5% of Medicare enrollees.
 
 **Insight:**
 
@@ -245,9 +249,9 @@ Other racial groups represent 5% of Medicare enrollees.
 
 **2️⃣ Gender Distribution**
 
-Top KPI Tile: Medicare is 53% female and 47% male.
+**Top KPI Tile:** Medicare is 53% female and 47% male.
 
-Trend Charts: Show the historical progression of female and male participation in Medicare from 2013 to 2022.
+**Trend Charts:** Show the historical progression of female and male participation in Medicare from 2013 to 2022.
 
 **Insight:**
 
@@ -272,7 +276,7 @@ This dashboard identifies states with the highest rates of critical healthcare i
 
 ### States with Highest Readmissions
 
-Top KPI Tile: District of Columbia (DC) leads with 869M readmissions.
+**Top KPI Tile:** District of Columbia (DC) leads with 869M readmissions.
 
 **Bar Chart:**
 
@@ -290,7 +294,7 @@ Top KPI Tile: District of Columbia (DC) leads with 869M readmissions.
 
 ### States with Highest Hospitalization from Diabetes
 
-Top KPI Tile: Florida (FL) has the most diabetes-related hospitalizations (327 cases).
+**Top KPI Tile:** Florida (FL) has the most diabetes-related hospitalizations (327 cases).
 
 **Bar Chart:**
 
