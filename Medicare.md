@@ -1,5 +1,8 @@
 # Medicare Utilisation Analysis
+
 Dataset Source:** [CMS Medicare Geographic Variation Public Use File](https://data.cms.gov/)
+
+[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png)
 
 ## Overview
 
@@ -47,21 +50,22 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 **1️⃣ First Query: Annual Medicare Spending Trends**
 
-
+[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Annual%20Medicare%20Spending%20Trends.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Annual%20Medicare%20Spending%20Trends.JPG)
 
 **📝 Findings:** Medicare spending has increased annually, with per capita spending also rising.
+
 
 **2️⃣ Checking Geographic Information**
 
 **Checking Unique Regions**
 
-
+[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Checking%20Unique%20Regions.JPG))[(https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Checking%20Unique%20Regions.JPG)
 
 **📝 Findings:** The dataset contains both states and cities (HRRs), making it difficult to extract state-level information.
 
 **Extracting State Abbreviations**
 
-
+[![Preview Image]
 
 **📝 Findings:** The first two characters of bene_geo_desc correspond to state abbreviations, which we use in later queries.
 
@@ -69,99 +73,136 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 **1️⃣ State-Level Medicare Spending**
 
-
+[![Preview Image]
 
 **📝 Findings:** **California, Texas, Florida, and New York** have the highest Medicare spending.
 
 **2️⃣ Inpatient vs. Outpatient Spending Trends**
 
-
+[![Preview Image]
 
 **📝 Findings:** Outpatient spending is increasing, suggesting a shift toward preventive care**.
 
 **3️⃣ Growth in Medicare Advantage Enrollment**
 
-
+[![Preview Image]
 
 **📝 Findings:** Medicare Advantage enrollment is growing, reducing reliance on FFS Medicare.
 
 **4️⃣ Hospital Readmission Trends**
 
+[![Preview Image]
+
 **Top 5 States with Highest Hospital Readmission Rates**
+
+[![Preview Image]
 
 **📝 Findings:** Some states have consistently high readmission rates, indicating care quality issues.
 
+
 **5️⃣ Racial & Ethnic Breakdown**
 
-
+[![Preview Image]
 
 **📝 Findings:** White beneficiaries remain the majority, but Hispanic and Black enrollment is increasing.
 
+
 **6️⃣ Dual-Eligible Beneficiaries (Medicare + Medicaid)**
+
+[![Preview Image]
 
 **Gender and Age Distribution**
 
+[![Preview Image]
+
 **Top 5 States with Highest Diabetes Hospitalization Rates**
 
+[![Preview Image]
+
 **Top 5 States with Highest Dmergency Department (BD) Usage**
+
+[![Preview Image]
 
 **📝 Findings:** The number of **low-income beneficiaries (Medicare + Medicaid) is rising**.
 
 ## Tableau Dashboards & Insights
+
 Now, I used Tableau dashboards to visualize and interpret the findings by breaking down each dashboard, explaining its design, key metrics, and insights.
 First off, we have to join the sheets in the file containing the query results in tableau.
 
 ### Medicare Expenditure
+
 This dashboard provides insights into Medicare spending trends across the United States, including year-over-year (YoY) growth, total spending over time, and average per capita spending. Additionally, it presents a hex map visualization of the average amount spent per state to highlight regional variations in Medicare expenditures.
 
 #### Key Findings
+
 **1️⃣ Year-Over-Year (YoY) Spending Growth**
+
 The YoY spending growth rate is +3.5%, indicating a steady increase in Medicare expenditures.
 This growth suggests rising healthcare costs, an aging population, or increased utilization of medical services.
+
 **2️⃣ Total Medicare Spending Over Time**
+
 The total Medicare spending has reached a massive $11 trillion.
 This figure reflects cumulative spending over the years, underscoring the importance of Medicare in the healthcare system.
-**3️⃣ Average Medicare Spending Per Capita**
-The average amount spent per Medicare beneficiary is $84,476.
+
+**3️⃣ Average Annual Medicare Spending Per Capita**
+
+The average amount spent per Medicare beneficiary in a year is $84,476.
 This metric helps gauge the cost burden per individual and highlights potential variations in healthcare costs by region.
+
 **4️⃣ Geographic Spending Distribution (Hex Map Interpretation)**
+
 The hex map provides a state-level breakdown of average Medicare spending per capita:
 
 **High-Spending States:**
-California (CA): $11,929
-Texas (TX): $11,864
-New Jersey (NJ): $12,918
-Maryland (MD): $12,862
-Connecticut (CT): $12,881
-Washington D.C. (DC): $12,289
+
++ California (CA): $11,929
++ Texas (TX): $11,864
++ New Jersey (NJ): $12,918
++ Maryland (MD): $12,862
++ Connecticut (CT): $12,881
++ Washington D.C. (DC): $12,289
+
 📝 These states have some of the highest per capita Medicare expenditures, likely due to higher healthcare costs, specialized medical centers, or larger elderly populations.
 
 **Low-Spending States:** 
-Montana (MT): $8,562
-Idaho (ID): $8,901
-Vermont (VT): $8,938
-Maine (ME): $9,033
-West Virginia (WV): $9,522
+
++ Montana (MT): $8,562
++ Idaho (ID): $8,901
++ Vermont (VT): $8,938
++ Maine (ME): $9,033
++ West Virginia (WV): $9,522
+
+  
 📝 These states tend to have lower Medicare spending per capita, which could be due to lower healthcare costs, fewer medical facilities, or healthier aging populations.
 
 ### Medicare Utilization
+
 This dashboard provides a comprehensive overview of how Medicare beneficiaries utilize healthcare services. It includes insights into Medicaid dual eligibility for Medicaid, inpatient vs. outpatient spending, total Medicare enrollment, and Medicare Advantage growth.
-1️⃣ Medicaid Dual Eligibility (%)
-Top KPI Tile: Displays the percentage of Medicare beneficiaries also eligible for Medicaid (30%).
-Line Chart: Shows trends in dual eligibility over time, with a slight decrease in recent years.
-💡 Insight:
-📌 A declining dual eligibility rate suggests that fewer Medicare beneficiaries are qualifying for Medicaid, which could be due to income shifts or policy changes affecting Medicaid eligibility.
+
+**1️⃣ Medicaid Dual Eligibility (%)**
+
++ Top KPI Tile: Displays the percentage of Medicare beneficiaries also eligible for Medicaid (30%).
++ Line Chart: Shows trends in dual eligibility over time, with a slight decrease in recent years.
+
+**Insight:**
+
+- A declining dual eligibility rate suggests that fewer Medicare beneficiaries are qualifying for Medicaid, which could be due to income shifts or policy changes affecting Medicaid eligibility.
 
 2️⃣ Inpatient vs. Outpatient Spending
+
 Top KPI Tile: Shows the breakdown of Medicare expenditures:
 97% spent on inpatient care
 3% spent on outpatient care
 Bar Chart: Illustrates how annual spending is distributed between inpatient and outpatient services.
-💡 Insight:
-📌 Inpatient care dominates Medicare spending, accounting for the majority of costs.
-📌 Outpatient spending is minimal, possibly due to lower costs per service and fewer hospitalizations as medical practices shift towards ambulatory and home care services.
+
+Insight:
+- Inpatient care dominates Medicare spending, accounting for the majority of costs.
+- Outpatient spending is minimal, possibly due to lower costs per service and fewer hospitalizations as medical practices shift towards ambulatory and home care services.
 
 3️⃣ Total Medicare Beneficiaries
+
 Top KPI Tile: Highlights the total number of Medicare beneficiaries (88 million).
 💡 Insight:
 📌 Medicare enrollment continues to rise, driven by aging baby boomers and expansion of Medicare Advantage plans.
@@ -231,10 +272,11 @@ CA (4,252), TX (3,522), FL (3,574), MI (3,632), and PA (3,492) are the top five 
 📌 California’s high ER visit rate suggests potential overburdened hospitals and limited availability of urgent care clinics.
 📌 Florida and Texas also show high ER utilization, which could be due to high uninsured populations.
 
-🔍 Key Takeaways from the Hot Spots Dashboard
-✅ DC has the highest readmission rate (869M)—indicating possible healthcare access and efficiency issues.
-✅ Florida leads in diabetes-related hospitalizations (327 cases)—highlighting chronic disease prevalence.
-✅ California has the highest ER visits (4,252 per 1,000)—potentially pointing to gaps in primary care.
+**Key Takeaways from the Hot Spots Dashboard**
+
+- DC has the highest readmission rate (869M)—indicating possible healthcare access and efficiency issues.
+- Florida leads in diabetes-related hospitalizations (327 cases)—highlighting chronic disease prevalence.
+- California has the highest ER visits (4,252 per 1,000)—potentially pointing to gaps in primary care.
 
 
 
