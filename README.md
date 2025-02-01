@@ -125,8 +125,7 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 ## Tableau Dashboards & Insights
 
-Now, I used Tableau dashboards to visualize and interpret the findings by breaking down each dashboard, explaining its design, key metrics, and insights.
-First off, I had to join the sheets in the file containing the query results in tableau.
+I utilized Tableau dashboards to visualize and interpret the findings, systematically breaking down each dashboard by explaining its design, key metrics, and insights. To begin, I integrated the query result sheets within Tableau by performing the necessary joins, ensuring a seamless and accurate data representation.
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png)
 
