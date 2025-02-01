@@ -46,14 +46,14 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 # **🔍 Step 4: Initial Data Exploration**
 
-**1️⃣ First Query: Annual Medicare Spending Trends**
+## First Query: Annual Medicare Spending Trends
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Annual%20Medicare%20Spending%20Trends.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Annual%20Medicare%20Spending%20Trends.JPG)
 
 **📝 Findings:** Medicare spending has increased annually, with per capita spending also rising.
 
 
-**2️⃣ Checking Geographic Information**
+## Checking Geographic Information
 
 **Checking Unique Regions**
 
@@ -196,12 +196,12 @@ This dashboard provides a comprehensive overview of how Medicare beneficiaries u
 
 2️⃣ Inpatient vs. Outpatient Spending
 
-Top KPI Tile: Shows the breakdown of Medicare expenditures:
-97% spent on inpatient care
-3% spent on outpatient care
-Bar Chart: Illustrates how annual spending is distributed between inpatient and outpatient services.
+- Top KPI Tile: Shows the breakdown of Medicare expenditures:
+- 97% spent on inpatient care
+- 3% spent on outpatient care
+- Bar Chart: Illustrates how annual spending is distributed between inpatient and outpatient services.
 
-Insight:
+**Insight:**
 - Inpatient care dominates Medicare spending, accounting for the majority of costs.
 - Outpatient spending is minimal, possibly due to lower costs per service and fewer hospitalizations as medical practices shift towards ambulatory and home care services.
 
@@ -209,19 +209,17 @@ Insight:
 
 Top KPI Tile: Highlights the total number of Medicare beneficiaries (88 million).
 
-💡 Insight:
+**Insight:**
 
-📌 Medicare enrollment continues to rise, driven by aging baby boomers and expansion of Medicare Advantage plans.
+- Medicare enrollment continues to rise, driven by aging baby boomers and expansion of Medicare Advantage plans.
 
 4️⃣ Growth in Medicare Advantage Enrollment
 
 Area Chart: Shows rapid growth in Medicare Advantage enrollment, surpassing 100 million in recent years.
 
-💡 Insight:
+**Insight:**
 
-📌 Medicare Advantage plans are becoming more popular, likely due to expanded coverage options, lower out-of-pocket costs, and additional benefits (e.g., dental, vision, wellness programs).
-
-📌 This growth suggests a shift away from traditional Medicare as more beneficiaries opt for private insurers managing Medicare coverage.
+- Medicare Advantage plans are becoming more popular, likely due to expanded coverage options, lower out-of-pocket costs, and additional benefits (e.g., dental, vision, wellness programs).This growth suggests a shift away from traditional Medicare as more beneficiaries opt for private insurers managing Medicare coverage.
 
 ## Medicare Demographics
 
@@ -241,11 +239,9 @@ Hispanic beneficiaries make up 6%, but their numbers are rising.
 
 Other racial groups represent 5% of Medicare enrollees.
 
-💡 Insight:
+**Insight:**
 
-📌 Medicare is still overwhelmingly utilized by White beneficiaries (79%), but there's a gradual increase in Hispanic and Other racial groups.
-
-📌 This suggests changing population demographics and the need for culturally tailored healthcare programs.
+- Medicare is still overwhelmingly utilized by White beneficiaries (79%), but there's a gradual increase in Hispanic and Other racial groups.This suggests changing population demographics and the need for culturally tailored healthcare programs.
 
 **2️⃣ Gender Distribution**
 
@@ -255,15 +251,14 @@ Trend Charts: Show the historical progression of female and male participation i
 
 **Insight:**
 
-📌 Women slightly outnumber men in Medicare, likely due to longer life expectancy.
-
-📌 Over time, the male participation rate has been increasing, suggesting improving healthcare access and life expectancy for men.
+- Women slightly outnumber men in Medicare, likely due to longer life expectancy.
+- Over time, the male participation rate has been increasing, suggesting improving healthcare access and life expectancy for men.
 
 3️⃣ Average Age of Medicare Beneficiaries
 
 Top KPI Tile: The average age of Medicare enrollees is 66 years.
 
-**💡 Insight:**
+**Insight:**
 
 - This indicates a steady influx of new enrollees as people become eligible at age 65.
 
@@ -279,53 +274,53 @@ This dashboard identifies states with the highest rates of critical healthcare i
 
 Top KPI Tile: District of Columbia (DC) leads with 869M readmissions.
 
-Bar Chart:
+**Bar Chart:**
 
-DC (869M) has the highest readmissions.
+- DC (869M) has the highest readmissions.
 
-Massachusetts (MA) follows with 766M.
+- Massachusetts (MA) follows with 766M.
 
-Maryland (MD) and New York (NY) also report high numbers.
+- Maryland (MD) and New York (NY) also report high numbers.
 
-💡 Insight:
+**Insight:**
 
-📌 High readmission rates indicate potential issues with post-discharge care and hospital efficiency.
+- High readmission rates indicate potential issues with post-discharge care and hospital efficiency.
 
-📌 DC’s extreme readmission rate suggests possible healthcare access problems or patient demographic challenges.
+- DC’s extreme readmission rate suggests possible healthcare access problems or patient demographic challenges.
 
 ### States with Highest Hospitalization from Diabetes
 
 Top KPI Tile: Florida (FL) has the most diabetes-related hospitalizations (327 cases).
 
-Bar Chart:
+**Bar Chart:**
 
-FL (327), LA (308), and IN (304) lead in diabetes hospitalizations.
+- FL (327), LA (308), and IN (304) lead in diabetes hospitalizations.
 
-Connecticut (CT) and Illinois (IL) also report high cases (~300 each).
+- Connecticut (CT) and Illinois (IL) also report high cases (~300 each).
 
-💡 Insight:
+**Insight:**
 
-📌 Southern states dominate this metric, indicating that diabetes prevalence is a major issue in the region.
+- Southern states dominate this metric, indicating that diabetes prevalence is a major issue in the region.
 
-📌 Preventative care efforts (e.g., lifestyle programs, diet initiatives) might be underfunded or ineffective in these areas.
+- Preventative care efforts (e.g., lifestyle programs, diet initiatives) might be underfunded or ineffective in these areas.
 
-📌 States with high diabetes hospitalization rates might also struggle with obesity and access to primary care.
+- States with high diabetes hospitalization rates might also struggle with obesity and access to primary care.
 
 ### States with Highest Emergency Department Visits
 
 Top KPI Tile: California (CA) has the most ER visits, with 4,252 per 1,000 patients.
 
-Bar Chart:
+**Bar Chart:**
 
 CA (4,252), TX (3,522), FL (3,574), MI (3,632), and PA (3,492) are the top five states.
 
-💡 Insight:
+**Insight:**
 
-📌 Emergency department overuse often signals inadequate primary care access.
+- Emergency department overuse often signals inadequate primary care access.
 
-📌 California’s high ER visit rate suggests potential overburdened hospitals and limited availability of urgent care clinics.
+- California’s high ER visit rate suggests potential overburdened hospitals and limited availability of urgent care clinics.
 
-📌 Florida and Texas also show high ER utilization, which could be due to high uninsured populations.
+- Florida and Texas also show high ER utilization, which could be due to high uninsured populations.
 
 **Key Takeaways from the Hot Spots Dashboard**
 
