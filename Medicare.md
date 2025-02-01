@@ -109,15 +109,15 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Dual-Eligible%20Beneficiaries%20(Medicare%20%2B%20Medicaid).JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Dual-Eligible%20Beneficiaries%20(Medicare%20%2B%20Medicaid).JPG)
 
-**Gender and Age Distribution**
+**7️⃣Gender and Age Distribution**
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Gender%20and%20Age%20Distribution.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Gender%20and%20Age%20Distribution.JPG)
 
-**Top 5 States with Highest Diabetes Hospitalization Rates**
+**8️⃣Top 5 States with Highest Diabetes Hospitalization Rates**
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Diabetes%20Hospitalization%20Rates.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Diabetes%20Hospitalization%20Rates.JPG)
 
-**Top 5 States with Highest Dmergency Department (BD) Usage**
+**9️⃣Top 5 States with Highest Dmergency Department (BD) Usage**
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Dmergency%20Department%20(BD)%20Usage.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Dmergency%20Department%20(BD)%20Usage.JPG)
 
