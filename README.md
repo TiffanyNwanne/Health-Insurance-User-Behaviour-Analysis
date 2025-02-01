@@ -126,7 +126,7 @@ Once the table was created, the CSV file was imported into SQLite using:
 ## Tableau Dashboards & Insights
 
 Now, I used Tableau dashboards to visualize and interpret the findings by breaking down each dashboard, explaining its design, key metrics, and insights.
-First off, we have to join the sheets in the file containing the query results in tableau.
+First off, I had to join the sheets in the file containing the query results in tableau.
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png)
 
@@ -135,8 +135,6 @@ First off, we have to join the sheets in the file containing the query results i
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png)
 
 This dashboard provides insights into Medicare spending trends across the United States, including year-over-year (YoY) growth, total spending over time, and average per capita spending. Additionally, it presents a hex map visualization of the average amount spent per state to highlight regional variations in Medicare expenditures.
-
-#### Key Findings
 
 **1️⃣ Year-Over-Year (YoY) Spending Growth**
 
