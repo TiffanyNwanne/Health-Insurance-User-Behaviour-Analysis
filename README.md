@@ -222,7 +222,7 @@ Area Chart: Shows rapid growth in Medicare Advantage enrollment, surpassing 100 
 
 ## Medicare Demographics
 
-[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Hot%20Spots.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Hot%20Spots.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Demographic.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Hot%20Spots.png)
 
 This dashboard provides insights into the demographic distribution of Medicare beneficiaries, including race, gender, and age. These factors are crucial in understanding the makeup of Medicare recipients and how policies might affect different populations.
 
