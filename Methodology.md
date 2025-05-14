@@ -94,3 +94,5 @@ The first two characters of bene_geo_desc were correspond to state abbreviations
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Dmergency%20Department%20(BD)%20Usage.JPG))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Top%205%20States%20with%20Highest%20Dmergency%20Department%20(BD)%20Usage.JPG)
 
 **📝 Findings:** The number of **low-income beneficiaries (Medicare + Medicaid) is rising**.
+
+The data was then exported as a csv file to Tableau for visualization 
