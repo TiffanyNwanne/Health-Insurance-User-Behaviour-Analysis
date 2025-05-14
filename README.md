@@ -38,7 +38,7 @@ The diagram is such as follows:
 
 ## Analysis and Insights 
 
-SQL was used for data cleaning and analysis and then visualisation was done in Tableau.
+[SQL](https://github.com/TiffanyNwanne/Health-Insurance-User-Behaviour-Analysis/blob/main/Methodology.md) was used for data cleaning and analysis and then visualisation was done in Tableau.
 
 ### Medicare Expenditure
 
