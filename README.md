@@ -9,11 +9,11 @@ This project is being led as part of a broader health policy and data science in
 
 Key project stakeholders include:
 
-	•	Health Policy Analysts & Program Managers: Strategic guidance and interpretation for policy relevance
+- **Health Policy Analysts & Program Managers:** Strategic guidance and interpretation for policy relevance
 
-	•	Data Analyst (Tiffany Nwanne): Responsible for data cleaning, statistical analysis, and insights synthesis
+- **Data Analyst (Tiffany Nwanne):** Responsible for data cleaning, statistical analysis, and insights synthesis
 
-	•	Data Engineers & CMS Data Architects: Supporting data access, validation, and technical infrastructure
+- **Data Engineers & CMS Data Architects:** Supporting data access, validation, and technical infrastructure
 
 **Key Questions Answered in This Analysis**
 
