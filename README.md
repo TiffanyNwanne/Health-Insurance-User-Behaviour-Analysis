@@ -8,9 +8,13 @@ Medicare, the federal health insurance program for older adults and certain youn
 This project is being led as part of a broader health policy and data science initiative aimed at understanding cost drivers and improving Medicare delivery nationwide. The analysis focuses on trends in average spending, utilization patterns, and demographic shifts over time — with an emphasis on identifying regions with atypical behavior, potential inefficiencies, and equity concerns.
 
 Key project stakeholders include:
+
 	•	Health Policy Analysts & Program Managers: Strategic guidance and interpretation for policy relevance
+
 	•	Data Analyst (Tiffany Nwanne): Responsible for data cleaning, statistical analysis, and insights synthesis
+
 	•	Data Engineers & CMS Data Architects: Supporting data access, validation, and technical infrastructure
+
 **Key Questions Answered in This Analysis**
 
 - How has Medicare spending changed over time?
