@@ -40,28 +40,12 @@ The diagram is such as follows:
 
 [SQL](https://github.com/TiffanyNwanne/Health-Insurance-User-Behaviour-Analysis/blob/main/Methodology.md) was used for data cleaning and analysis and then visualisation was done in Tableau.
 
-### Medicare Expenditure
+#### Medicare Expenditure
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png)
 
-This dashboard provides insights into Medicare spending trends across the United States, including year-over-year (YoY) growth, total spending over time, and average per capita spending. Additionally, it presents a hex map visualization of the average amount spent per state to highlight regional variations in Medicare expenditures.
 
-**1️⃣ Year-Over-Year (YoY) Spending Growth**
-
-The YoY spending growth rate is +3.5%, indicating a steady increase in Medicare expenditures.
-This growth suggests rising healthcare costs, an aging population, or increased utilization of medical services.
-
-**2️⃣ Total Medicare Spending Over Time**
-
-The total Medicare spending has reached a massive $11 trillion.
-This figure reflects cumulative spending over the years, underscoring the importance of Medicare in the healthcare system.
-
-**3️⃣ Average Annual Medicare Spending Per Capita**
-
-The average amount spent per Medicare beneficiary in a year is $84,476.
-This metric helps gauge the cost burden per individual and highlights potential variations in healthcare costs by region.
-
-**4️⃣ Geographic Spending Distribution (Hex Map Interpretation)**
+Medicare expenditures have shown a steady increase, with a year-over-year (YoY) spending growth rate of +3.5%. Total Medicare spending has now reached a substantial $11 trillion, reflecting the scale and impact of the program. On average, $84,476 is spent annually per Medicare beneficiary, highlighting the significant financial resources allocated to individual care.
 
 The hex map provides a state-level breakdown of average Medicare spending per capita:
 
