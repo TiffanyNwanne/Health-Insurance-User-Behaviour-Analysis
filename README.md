@@ -2,23 +2,28 @@
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png)
 
-## Overview
+## Project Background 
 
-The goal of this project is to analyze average amount spent on Medicare, healthcare utilization, and demographic trends using the MS Medicare FFS Geographic Variation Public Use File (2014-2021). This dataset contains detailed information on Medicare payments, enrollment, hospitalization rates, and demographic characteristics across different regions in the U.S.
+Medicare, the federal health insurance program for older adults and certain younger individuals with disabilities, continues to face mounting pressure to control costs while ensuring equitable access to care. Policymakers and healthcare leaders have raised critical concerns about the persistent geographic variation in Medicare spending and utilization — whether these differences reflect inefficiencies, population health disparities, or structural healthcare access issues.
+This project is being led as part of a broader health policy and data science initiative aimed at understanding cost drivers and improving Medicare delivery nationwide. The analysis focuses on trends in average spending, utilization patterns, and demographic shifts over time — with an emphasis on identifying regions with atypical behavior, potential inefficiencies, and equity concerns.
 
+Key project stakeholders include:
+	•	Health Policy Analysts & Program Managers: Strategic guidance and interpretation for policy relevance
+	•	Data Analyst (Tiffany Nwanne): Responsible for data cleaning, statistical analysis, and insights synthesis
+	•	Data Engineers & CMS Data Architects: Supporting data access, validation, and technical infrastructure
 **Key Questions Answered in This Analysis**
 
-✅ How has Medicare spending changed over time?
+- How has Medicare spending changed over time?
 
-✅ Which states have the highest and lowest Medicare expenditures?
+- Which states have the highest and lowest Medicare expenditures?
 
-✅ What are the trends in inpatient vs. outpatient spending?
+- What are the trends in inpatient vs. outpatient spending?
 
-✅ How is Medicare Advantage (MA) enrollment growing?
+- How is Medicare Advantage (MA) enrollment growing?
 
-✅ Which states have the highest emergency department (ED) visits and hospital readmissions?
+- Which states have the highest emergency department (ED) visits and hospital readmissions?
 
-✅ What are the racial/ethnic trends among Medicare beneficiaries?
+- What are the racial/ethnic trends among Medicare beneficiaries?
 
 # **📂 Step 1: Downloading and Preparing the Data**
 
