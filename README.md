@@ -29,6 +29,12 @@ This project involves cross-functional collaboration between:
 
 - What are the racial/ethnic trends among Medicare beneficiaries?
 
+## Dataset Description 
+The dataset used for the analysis is the Medicare Fee-for-Service (FFS) Geographic Variation Public Use File (2014–2021). This dataset provides granular, region-level insights into Medicare expenditures, service utilization rates (e.g., hospitalizations, post-acute care, preventive services), and demographic characteristics of beneficiaries across the U.S.
+
+The diagram is such as follows:
+[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png)
+
 # **📂 Step 1: Downloading and Preparing the Data**
 
 **Downloading the Dataset**
@@ -132,11 +138,9 @@ Once the table was created, the CSV file was imported into SQLite using:
 
 **📝 Findings:** The number of **low-income beneficiaries (Medicare + Medicaid) is rising**.
 
-## Tableau Dashboards & Insights
 
-I utilized Tableau dashboards to visualize and interpret the findings, systematically breaking down each dashboard by explaining its design, key metrics, and insights. To begin, I integrated the query result sheets within Tableau by performing the necessary joins, ensuring a seamless and accurate data representation.
-
-[![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Tableau%20Joins.png)
+## Analysis and Insights 
+SQL was used for data cleaning and analysis and then visualisation was done in Tableau.
 
 ### Medicare Expenditure
 
