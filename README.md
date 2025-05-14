@@ -1,4 +1,4 @@
-# Medicare Utilisation Analysis
+# Health Insurance User Behavior Analysis
 
 [![Preview Image](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png))](https://github.com/TiffanyNwanne/Medicare-Utilisation-Analysis-By-Geography/blob/main/images/Expenditure.png)
 
